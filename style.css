@@ -1,0 +1,238 @@
+/* Helper Styles: Do not Delete */
+
+background-color:FFE8D1;
+
+body {
+	margin:  0;
+	padding:  0;
+	box-sizing:  border-box;
+}
+
+/* Put your CSS Styles Below this Line */
+
+h1 {
+
+	font-size: 45px;
+	font-family: "Hoefler text";
+}
+
+h2 {
+	font-size: 25px;
+	font-family: "Hoefler text";
+}
+
+h3 {
+	font-size: 15px;
+	font-family: "Hoefler text";
+}
+/* classes */
+
+
+
+
+.cream{
+	color: #FFE8D1;
+}
+
+.coffee{
+	color: #3A2018;
+}
+.caramel{
+	color: #814725;
+}
+
+/* div classes*/
+
+.light-box{
+	border-color:#3A2018;
+	border-width: 20px;
+	border-style: solid;
+  display: flex;
+  justify-content: space-between;
+	background-color:#FFE8D1;
+	color: #3A2018;
+}
+
+.dark-box{
+	border-color:#3A2018;
+	border-width: 20px;
+	border-style: solid;
+	background-color:#814725;
+ /* display: flex;*/
+}
+
+.specials{
+		border-color:#3A2018;
+	border-width: 20px;
+	border-style: solid;
+	background-color:#FFE8D1;
+	color: #3A2018;
+}
+
+.beans{
+	border-color:#3A2018;
+	border-width: 20px;
+	border-style: solid;
+	background-color:#814725;
+}
+
+.footer-box{
+	border-color:#3A2018;
+	border-width: 20px;
+	background-color:#814725;
+	color: #FFE8D1 ;
+	position: relative;
+  text-align: center;
+  background-image: url(beans-electric-boogaloo.png);
+  background-size: cover;
+  padding: 150px 0;
+}
+
+
+
+.header {
+  /*overflow: hidden;*/
+  padding: 20px 10px;
+  display: flex;
+  justify-content: space-between;
+  border-color:#3A2018;
+	border-width: 20px;
+	border-style: solid;
+	background-color:#814725;
+	color: #3A2018;
+}
+
+.about-us{
+  border-color:#3A2018;
+  border-width: 20px;
+  border-style: solid;
+  background-color:#FFE8D1;
+  color: #3A2018;
+  margin-right: 30px;
+  text-align: center;
+}
+
+/* Style the header links */
+.header a {
+  /*float: left;*/
+  color: #3A2018;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+
+}
+
+/* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+/* Change the background color on mouse-over */
+.header a:hover {
+  background-color: #FFE8D1;
+  color: black;
+}
+
+/* Style the active/current link*/
+.header a.active {
+  background-color: #FFE8D1;
+  color:#3A2018;
+}
+
+/* Float the link section to the right */
+.header-right {
+  width: 45%;
+}
+
+
+
+.home-beans {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .header-right {
+    float: none;
+  }
+ .centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+
+.drawer {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  width: 320px;
+  top: 55px;
+  right: 18px;
+  min-height: 40%;
+  max-height: 80%;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+.header {
+  min-height: 38px;
+  border-bottom: 1px solid #CCCCCC;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 0px;
+  padding-top: 2px;
+}
+
+.list_item {
+  display: flex;
+  flex-direction: row;
+  /*align-items: center;*/
+  padding: 4px;
+}
+
+.svg {
+  margin-right: 6px;
+  background: aliceblue;
+  flex: 0 0 auto; /* take auto width, don't shrink or grow */
+}
+
+.details {
+  display: flex; /* added */
+  flex-grow: 1;
+  /*align-items: center;*/
+}
+
+.li {
+  list-style: none;
+}
+
+.details span {
+  word-break: break-all; /* added */
+}
+
+.menu-content {
+  color: #FFE8D1;
+  width: 33%;
+  background-image: url(background.png);
+}
+
+.menu-text h3 {
+    color: #FFE8D1;
+}
+
+.menu-text p {
+  color:  red;
+}
